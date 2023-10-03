@@ -20,7 +20,6 @@ print(my_lista)
 
 print(my_lista.index('Azul'))
 
-#my_lista.remove('Magenta')
 my_lista.remove('Marron')
 print(my_lista)
 
@@ -44,9 +43,37 @@ my_NumList = [10, 9, 8, 7, 6 , 5 , 4, 3, 2, 1]
 print("Ordering my_NumList: ")
 my_NumList.sort()
 print(my_NumList)
-#OrderedLList = my_NumList.sort()
 #print(my_listaSort)
 
-#Ordenando lista de mayor a menor
 my_NumList.sort(reverse = True)
 print("De menor a mayor: ", my_NumList)
+
+## Pasamos a duplas
+
+my_tupla = tuple(my_lista)
+print()
+print()
+print("my_tuple: ", my_tupla)
+
+print(my_tupla[0])
+print(my_tupla[2])
+
+
+print('Rojo' in my_tupla)
+print(my_tupla.count('Rojo'))
+
+my_tupla_unitaria = ('Blanco')
+print(my_tupla_unitaria)
+
+my_tupla = 'Gaspar', 5, 8, 1999
+print(my_tupla)
+
+print(nombre)
+print(dia)
+print(mes)
+print(año)
+
+print("Nombre: ", nombre, " - Dia:", dia, " - Mes: ", mes, "- Año: ", año)
+
+my_lista2=list(my_tupla)
+print(my_lista2)
